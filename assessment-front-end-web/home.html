@@ -3,7 +3,6 @@
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
 	<nav>
@@ -17,8 +16,17 @@
 	<content>
 		<h1>Welcome to this little website.</h1>
 		<!-- insert hello world here -->
+		<p>Hello World</p>
 
-		<img src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2fLOwYjOQkg8L7XCE0KOrwN7BtudMFqTuJQ&usqp=CAU" alt="duck-pic" class="opaque-and-align">
+		<p>
+			Welcome to the rubber ducks of the future. Please enjoy the site. We thank you for checking us out. Below is a list of compliments to you, the user, from us, the owners:
+			<ul>
+				<li>As a person who likes rubber ducks, you are an amazing person.</li>
+				<li>You are definitely more kind than others.</li>
+				<li>You have a heart of gold, just like a rubber duck.</li>
+			</ul>
+		</p>
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -28,15 +36,22 @@
 			Message:
 			<input type="textarea">
 
+			How did you hear about us?:
+			<div class="flex">
+				<input type="checkbox" id="googleBox">
+				<label for="googleBox">Google</label>
+			</div>
+			<div class="flex">
+				<input type="checkbox" id="friendBox">
+				<label for="friendBox">Friend</label>
+			</div>
+			<div class="flex">
+				<input type="checkbox" id="otherBox">
+				<label for="otherBox">Other</label>
+			</div>
 			<input type="submit">
-
-
 		</form>
-
 	</content>
-
-
 	<script src="about.js"></script>
-
 </body>
 </html>

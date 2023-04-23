@@ -36,3 +36,83 @@ input {
 img {
 	max-width: 300px;
 }
+
+.flex {
+	display: flex;
+}
+
+h3 {
+	color: darkblue;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+#skills {
+	background-color: deepskyblue;
+    grid-column: 1 / 3;
+	height: 2vh;
+	align-content: self;
+}
+
+#interests {
+	background-color: deeppink;
+    grid-column: 1 / 3;
+	height: 2vh;
+}
+
+#goals {
+	background-color: coral;
+    grid-column: 1 / 3;
+	height: 2vh;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+#profile-text {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 10px 8px 10px dodgerblue, 14px 12px 10px red;
+	font-size: 40px;
+}
+
+#profile-snippet {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+.center-align {
+	align-self: center;
+}
+
+.text-effect-1 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: larger;
+	font-weight: 700;
+	text-decoration: double;
+	text-shadow: 4px 4px 4px darkgray;
+}
+
+.opaque-and-align {
+	mix-blend-mode: multiply;
+}
+
+.too-high {
+	margin-top: 2vh;
+}
+#grid {
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2vh 25vh 2vh 22vh 2vh 25vh;
+    grid-gap: .5%;
+    background-color: #ddd;
+}
+
+.buttons {
+	background-color: yellow;
+	height: 40px;
+	width: 163px;
+}
